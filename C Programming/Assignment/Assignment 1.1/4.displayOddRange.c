@@ -7,10 +7,7 @@ int main(){
     printf("Enter the nth term: ");
     scanf("%d",&n);
 
-    if(n<0){
-        printf("Invalid! Enter a positive integer!\n");
-        return 0;
-    }
+    
 
     printf("---- Odd Numbers ----\n");
     for(i=1;i<=n;i++){
