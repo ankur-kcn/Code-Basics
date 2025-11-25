@@ -1,3 +1,5 @@
+//Extract digits of an integer number (left to right and right to left)?
+
 #include <stdio.h>
 int main()
 {
