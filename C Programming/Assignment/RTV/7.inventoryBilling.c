@@ -10,11 +10,15 @@
 
 int main(){
     char name[10][50];
+    int qty;
     
     printf("----- List of %d Items -----\n",10);
     for(int i=0;i<10;i++){
         printf("Item %d: ",i+1);
         fgets(name[i],sizeof(name[i]),stdin);
+        printf("Quantity : ");
+        scanf("%d",&qty);
+        getchar();
     }
     return 0;
 }
