@@ -13,6 +13,7 @@
         printf("2. Deposit\n");
         printf("3. Balance Check\n");
         printf("4. Exit\n");
+        printf("Choose (1-4):\n");
     }
     void deposit(float *balance){
         float amount;
@@ -49,7 +50,6 @@ int main(){
     printf("------------ Bank ATM System ------------\n");
     while(1){
         display();
-        printf("Choose (1-4):\n");
         scanf("%d",&choice);
         switch (choice)
         {
@@ -67,7 +67,7 @@ int main(){
             return 0;
         
         default:
-        printf("You are Invalid! Try Again!\n");
+        printf("Invalid Choice! Try Again!\n");
             break;
         }
     }
